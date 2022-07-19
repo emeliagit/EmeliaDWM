@@ -7,7 +7,7 @@ After downloading the most recent release from the releases page (https://github
 
 First off, you'll want to place the ".config" folder in your home directory. This should merge with your already existing .config folder, and it should place my Alacritty configuration in it. 
 
-Then, you'll want to place the ".dwm" folder in your home directory. This folder contains an autostart script, which just starts some programs when you login. 
+Then, you'll want to place the ".dwm" folder in your home directory. This folder contains an autostart script, which just starts some programs when you login. There's also a line in the "autostart.sh" script that adjusts for my own display, you'll want to delete that line (or comment it out).
 
 Third, you'll be left with a folder simply called "dwm", that's the actual DWM folder. It contains DWM as well as some patches and modifications I've made to it. You'll have to compile it in order to install it, so configure stuff before compiling it, and compile it every time you make a change. Before compiling it, make sure to place it in your home directory. To compile it, in your terminal, cd into the "dwm" folder included with the release and run "sudo make clean install". This should compile it, and you should not get any errors. If you do get errors, that means that you don't have the proper dependencies installed, so go install those and then compile it.
 
@@ -20,3 +20,13 @@ Comment=Dynamic window manager
 Exec=dwm
 Icon=dwm
 Type=XSession
+
+-------- Additional dependencies --------
+
+Beyond the normal dependencies for DWM, there are some more required to get my configuration to really work. They are as follows:
+- dmenu
+- picom
+- nitrogen (optional, for setting wallpaper)
+- caffeine (optional)
+- xfce4-power-manager
+- networkmanager
