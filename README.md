@@ -13,10 +13,10 @@ Third, you'll be left with a folder simply called "dwm", that's the actual DWM f
 
 Last, you'll want to set up a short cut so you can actually log into it (assuming you're using a login manager). This is quite straightforward and very simple. All you have to do is go into /usr/share/xessions and make a file called "dwm.shortcut" using whatever text editor you like. Inside "dwm.shortcut", just put as follows, and you're done:
 
-[Desktop Entry]
+>[Desktop Entry]
 Encoding=UTF-8
 Name=dwm
 Comment=Dynamic window manager
 Exec=dwm
 Icon=dwm
-Type=XSession
+Type=XSession <
