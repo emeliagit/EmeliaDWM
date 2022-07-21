@@ -30,3 +30,8 @@ Beyond the normal dependencies for DWM, there are some more required to get my c
 - caffeine (optional)
 - xfce4-power-manager
 - networkmanager
+
+Some screenshots for the curious: 
+file:///home/emelia/Pictures/Screen%20Shots/Screenshot_2022-07-21_18-30-26.png![image](https://user-images.githubusercontent.com/66752943/180325986-0929fed5-b623-4d2a-a9fe-7361431f267a.png)
+
+file:///home/emelia/Pictures/Screen%20Shots/Screenshot_2022-07-21_18-29-17.png![image](https://user-images.githubusercontent.com/66752943/180326030-2bdea24c-61c0-4153-a38e-ce1ecbb88174.png)
