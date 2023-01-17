@@ -32,6 +32,12 @@ Beyond the normal dependencies for DWM, there are some more required to get my c
 - xfce4-power-manager
 - networkmanager
 
+Dependencies on Fedora:
+- libX11-devel
+- libXft-devel
+- libXinerama-devel
+- xorg-x11-xinit-session
+
 Some screenshots for the curious: 
 file:///home/emelia/Pictures/Screen%20Shots/Screenshot_2022-07-21_18-30-26.png![image](https://user-images.githubusercontent.com/66752943/180325986-0929fed5-b623-4d2a-a9fe-7361431f267a.png)
 
